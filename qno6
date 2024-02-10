@@ -1,0 +1,4 @@
+qno6 : How does python handle multiple conditions in an if-elif-else ladder?
+Ans : In a python if-elif-else ladder, python evaluates each condition in order, starting from the top(if), and stops at the first condition that is true. If none of the conditions
+are true, the code block associated with the else statement (if present) is executed. This ensures that only one block of code is executed in the ladder, based on the first true condition
+encountered, allowing for exclusive branching.
