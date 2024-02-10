@@ -1,0 +1,10 @@
+qno3 : Explain the difference between the if-elif-else and nested if-else structures.
+Ans : The if-elif-else structure allows for multiple conditional branches to be evaluted in sequence. Python checks each condition in order, and if one of them is true,
+it executes the corresponding block of code and then exits the entire structure. If none of the connditions are true, the code block associated with the else statement (if present)
+is executed.
+
+On the other hand, nested if-else structures involve placing one if-else structure inside another. This allows for more complex decisions-making scenarios, where conditions might depend
+on the outcome pof previous conditions. Each nested if-else structure is evaluted independantly based on its own condition.
+
+In summary, if-elif-else is useful when you have multiple exclusive conditions to check, while nested if-else structure are suitable for handling more intricate decision-making
+scenarios where conditions may be independent.
