@@ -1,0 +1,4 @@
+qno2 : How does python determine which block of code to execute in an if-else statement?
+Ans : In an if-else statement in python, the condition specified after the if keyword is evaluted. If the condition is true, the block of code immediately following the 
+if statement is executed. If the condition is false, the block of code following the else statement (if present) is executed. So, python determines whuch block of code to 
+execute based on truth value of the condition specified in the if statement.
