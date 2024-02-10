@@ -1,0 +1,3 @@
+qno5 : Describe scenarios where nested if-else statements are preferred over if-elif structures.
+Ans : Nested if-else statements are preferred over if-elif-else structures in scenarios where conditions are independent, sequential processing is required, or specific error
+handling is needed. They are also suitable for handling diffrent actions based on combinations pf conditions.
