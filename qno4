@@ -1,0 +1,21 @@
+qno4 : How can you use logical operators(and,or,not) with if-else staements in python?
+Ans : In python, logical operators(and,or,not) can be used to combine multiple conditions witin an if statement to make more complex condition checks.
+and : This opeartor returns True if both conditions on its left and right sides are true.
+or : This operator returns True if at least one of the conditions on its left or right side is true.
+not : This operator negates the truth value of the condition following it.
+
+Here's an example of how you can use these operators with if-else statements:
+
+x = 5
+y = 10
+
+if x > 0 and y < 15:
+    print("Both conditions are true")
+
+if x == 0 or y == 5:
+    print("At least one condition is true")
+
+if not x == 0:
+    print("x is not equal to 0")
+else:
+    print("x is equal to 0")
